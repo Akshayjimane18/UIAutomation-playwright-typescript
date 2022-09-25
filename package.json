@@ -1,0 +1,23 @@
+{
+  "name": "ui-playwright-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test %npm_config_test% --headed --project=chromium --reporter=html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshayjimane18/UIAutomation-playwright-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akshayjimane18/UIAutomation-playwright-typescript/issues"
+  },
+  "homepage": "https://github.com/Akshayjimane18/UIAutomation-playwright-typescript#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.26.0"
+  }
+}
